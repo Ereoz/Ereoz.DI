@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ereoz.DI", "Ereoz.DI\Ereoz.DI.csproj", "{46DF4FC5-6DC3-4985-8F66-B90B4348629F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46DF4FC5-6DC3-4985-8F66-B90B4348629F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DF4FC5-6DC3-4985-8F66-B90B4348629F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DF4FC5-6DC3-4985-8F66-B90B4348629F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DF4FC5-6DC3-4985-8F66-B90B4348629F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F87CF5E-8077-4B9F-97DF-E4208879C756}
+	EndGlobalSection
+EndGlobal
