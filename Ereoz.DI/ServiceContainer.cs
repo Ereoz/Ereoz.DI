@@ -6,14 +6,14 @@ using System.Reflection;
 
 namespace Ereoz.DI
 {
-    public class DIContainer : IContainer
+    public class ServiceContainer : IServiceContainer
     {
         private Dictionary<Type, List<IServiceInfo>> _services;
 
-        public DIContainer()
+        public ServiceContainer()
         {
             _services = new Dictionary<Type, List<IServiceInfo>>();
-            Register<IContainer, DIContainer>().AsSingletone();
+            Register<IServiceContainer, ServiceContainer>().AsSingletone();
         }
 
         public IServiceInfo Register<Service>() =>
