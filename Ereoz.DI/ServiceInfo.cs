@@ -19,6 +19,12 @@ namespace Ereoz.DI
         public void AsSingletone() =>
             IsSingletone = true;
 
+        public void AsSingletone(object instance)
+        {
+            IsSingletone = true;
+            SingletoneInstance = instance;
+        }
+
         public void AsTransient() =>
             IsSingletone = false;
     }
