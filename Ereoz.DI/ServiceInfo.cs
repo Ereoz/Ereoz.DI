@@ -1,6 +1,6 @@
 ﻿using Ereoz.Abstractions.DI;
 using System;
-
+ 
 namespace Ereoz.DI
 {
     public class ServiceInfo : IServiceInfo
