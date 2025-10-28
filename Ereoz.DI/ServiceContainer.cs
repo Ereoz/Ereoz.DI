@@ -13,7 +13,7 @@ namespace Ereoz.DI
         public ServiceContainer()
         {
             _services = new Dictionary<Type, List<IServiceInfo>>();
-            Register<IServiceContainer, ServiceContainer>().AsSingletone();
+            Register<IServiceContainer, ServiceContainer>().AsSingletone(this);
         }
 
         public IServiceInfo Register<Service>() =>
